@@ -24,7 +24,7 @@ Within the lab interface, some buttons expand to display a menu of options.
 
 ## Overview
 
-![Virtualization Lab Interface](images/lab-interface.png)
+![Virtualization Lab Interface](images/lab-interfacev2.png)
 
 1. **Commands menu**: Contains advanced keyboard functions. See the [Commands menu](#commands-menu) section for more information. 
 
@@ -57,7 +57,7 @@ Within the lab interface, some buttons expand to display a menu of options.
 
 1. **Previous lab instruction**: Navigates to the previous page in the lab instructions. 
 
-1. **Next lab instruction**: Navigates to the next page in the lab instructions.
+1. **Next lab instruction**: Navigates to the next page in the lab instructions, or to exit the lab eith either an End or Submit depending if the lab is scored. 
 
 1. **Lab timer**: Displays the time remaining in the current lab.
 
