@@ -115,7 +115,7 @@ The Display menu is split into two sections:
 
 ### Exit/Save Menu 
 
-![Exit/Save menu](images/lab-menu-v2.png){700}
+![Exit/Save menu](images/lab-menu-v2.png)
 
 1. **Save Progress and Exit**: This allows you to save your lab and return to it later. Please note the expiration date and time that is displayed after you save your lab. Once the expiration date and time has elapsed, the lab is cancelled and any work in the lab will be lost.
 
