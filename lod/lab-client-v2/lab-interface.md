@@ -65,7 +65,7 @@ Within the lab interface, some buttons expand to display a menu of options.
 
 ### Commands Menu 
 
-![](images/commands-typetext-display-menus.png)
+![](images/command-menu-v2.png)
 
 >[!alert] The Commands menu is not available in labs that do not use virtual machines. 
 
@@ -80,27 +80,37 @@ Within the lab interface, some buttons expand to display a menu of options.
 
     C. **Type Clipboard Text**: Opens a dialog box to paste text into from your local clipboard, and paste into the virtual machine at the current cursor position. 
     
-1. **Power**:
-
-    A. **Pause Machine**: This puts the virtual machine into a paused state. Once it is paused, it must be resumed to continue using the virtual machine. 
-    
-    B. **Reset/Reboot Machine**: This reboots the virtual machine. This **does not** gracefully shut down the machine. It is recommended to save your work before using this. 
-    
-    C. **Turn Off Machine**: This powers down the virtual machine. 
-
 1. **Virtual Keyboard**: This enables an on-screen virtual keyboard that can be used to input keystrokes into the virtual machine. 
-
-1. **Reset Internet Gateway**: Resets the gateway that the virtual machine uses to connect to the internet. 
 
 ### Display Menu 
 
-![Display menu](images/display-menu.png)
+![Display menu](images/display-menu-v2.png)
+
+The Display menu is split into two sections:
+  A. Display Options
+  B. Machine Options
+
+#### Display Options
 
 1. **Full Screen**: Sets the lab to display in a full screen window. 
 
 1. **Fit Machine to Window**: This resizes the virtual machine to fit the browser window. 
 
-1. **Reconnect**: This will reconnect your local machine to the remote virtual machine, if the connection is interrupted. 
+1. **Reconnect**: This will reconnect your local machine to the remote virtual machine, if the connection is interrupted.
+
+#### Machine Options
+
+1. **Reconnect**: This retries the connection between the local machine and the virtual machine. 
+
+1. **Pause**: This puts the virtual machine into a paused state. Once it is paused, it must be resumed to continue using the virtual machine. 
+    
+1. **Reset/Reboot**: This reboots the virtual machine. This **does not** gracefully shut down the machine. It is recommended to save your work before using this. 
+    
+1. **Power Off**: This powers down the virtual machine.
+
+1. **Snaphots**: If enabled allows the lab user to create, apply and delete snaphots.
+
+1. **Reset Internet Gateway**: Resets the gateway that the virtual machine uses to connect to the internet. 
 
 ### Developer Menu 
 
