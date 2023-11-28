@@ -18,8 +18,8 @@ Within the lab interface, some buttons expand to display a menu of options.
   - [Overview](#overview)
     - [Commands Menu](#commands-menu)
     - [Display Menu](#display-menu)
-    - [Developer Menu](#settings-menu)
-    - [Hamburger Menu](#hamburger-menu)
+    - [Exit/Save Menu](#exitsave-menu)
+    - [Settings Menu](#settings-menu)
   - [Lab Interface FAQ](#lab-interface-faq)
 
 ## Overview
@@ -87,8 +87,9 @@ Within the lab interface, some buttons expand to display a menu of options.
 ![Display menu](images/display-menu-v2.png)
 
 The Display menu is split into two sections:
-  A. Display Options
-  B. Machine Options
+
+1. Display Options
+1. Machine Options
 
 #### Display Options
 
@@ -112,26 +113,47 @@ The Display menu is split into two sections:
 
 1. **Reset Internet Gateway**: Resets the gateway that the virtual machine uses to connect to the internet. 
 
-### Developer Menu 
+### Exit/Save Menu 
 
-![Developer menu](images/developer-menu.png)
+![Exit/Save menu](images/lab-menu-v2.png){700}
 
-1. **Install Integration Service**: This installs the Skillable Studio Integration Service. This allows automatic screen resizing (limited resolutions)
- and executing UI commands within a virtual machine. 
-### Hamburger Menu 
+1. **Save Progress and Exit**: This allows you to save your lab and return to it later. Please note the expiration date and time that is displayed after you save your lab. Once the expiration date and time has elapsed, the lab is cancelled and any work in the lab will be lost.
 
-![Hamburger menu](images/lab-menu.png){700}
+1. **End Lab**: Will end the lab.  New launches will start the lab from the beginning.
 
-1. **Save**:
+### Settings Menu 
 
-    A. **Save my lab instance and return to it later**: This allows you to save your lab and return to it later. Please note the expiration date and time that is displayed after you save your lab. Once the expiration date and time has elapsed, the lab is cancelled and any work in the lab will be lost. 
+![Settings menu](images/settings-menu-v2.png)
 
-    B. **Commit my changes to this lab profile**: This allows lab authors to commit changes to virtual machines in the lab, so that subsequent lab launches will contain those changes. 
+The Settings menu is split into upto four sections.  The sections displayed depend on permisions of the lab user.  The four sections are:
 
-    C. **Commit my changes and create a new lab profile**: This allows lab authors to commit changes to virtual machines in the lab and save a new lab profile with the changes. 
+1. Developer Tools
+1. Text Size    
+1. Color Mode
+1. Actions
+
+
+#### Developer Tools
+
+1. **Edit Instructions**: This allows lab authors to edit the instructions that are displayed in the instruction pane of the lab.
+2. **Commit Changes**: Allows the saving of changes made to the virtual machines to make those changes permanent.
+
+    i. **Commit my changes and update this lab profile**: This allows lab authors to commit changes to virtual machines in the lab, so that subsequent lab launches will contain those changes. 
+
+    ii. **Commit my changes and create a new lab profile**: This allows lab authors to commit changes to virtual machines in the lab and save a new lab profile with the changes. 
+3. **Install Integration Service**: This installs the Skillable Studio Integration Service. This allows automatic screen resizing (limited resolutions)
+ and executing UI commands within a virtual machine.
+
+#### Text Size
+
+Allows the selection of the text size within the Lab Client to change the size of the Instruction and Resources pages.
+
+#### Color Mode
+
+Allows a lab user to switch between one of three color modes.  The modes are light, dark and high contrast.  The availability of color modes and the color schemes for each mode are controlled by Themes
+
+#### Actions
     
-1. **Edit Instructions** This allows lab authors to edit the instructions that are displayed in the instruction pane of the lab. 
-
 1. **Split Windows**: This allows splitting the windows into two separate windows; with the Virtual machine in one window, and the lab instruction pane in another window. After windows are split, this button will change to display _Join Windows_, this is used to join the windows back together into a single browser window. 
 
 ## Lab Interface FAQ
